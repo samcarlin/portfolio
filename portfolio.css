@@ -1,0 +1,33 @@
+
+.header {
+    background: #8EA6C8;
+    height: 400px;
+}
+.header h1 {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.projects {
+    background: #B2DBE2;
+    height: 400px;
+}
+
+
+.publications {
+    background: #78C1A0;
+    height: 400px;
+}
+
+.skills {
+    background: #FFFFFF;
+    height: 400px;
+}
+
+.about {
+    background: #51694B;
+    height: 400px;
+}
