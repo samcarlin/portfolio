@@ -1,15 +1,56 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+}
 
 .header {
     background: #8EA6C8;
     height: 400px;
+    margin: 0;
 }
 .header h1 {
-    text-align: center;
+    float: left;
+    
 }
 
-.navbar {
+li a {
+    font-size: 22px;
+    color: black;
     text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+
+li a:hover {
+    background-color: #466692;
+}
+
+li {
+    display: inline-block;
+}
+
+ ul {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 14px;
+    background-color: #8EA6C8;
+}
+
+.header-image {
+    float: right;
+}
+
+/* h2 {
+    padding-top: 40px;
+    margin-top: -40px;
+} */
 
 .projects {
     background: #B2DBE2;
