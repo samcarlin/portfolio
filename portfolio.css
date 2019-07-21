@@ -48,6 +48,7 @@ body {
 }
 
  .navbar ul {
+     z-index: 500;
     position: fixed;
     top: 0;
     width: 100%; 
@@ -58,35 +59,12 @@ body {
     background-color: #8EA6C8;
 }
 
-.projects {
-    
-    height: 400px;
-    margin-top: 0;
-}
-
-.publications {
-    
-    height: 400px;  
-}
-
-.skills {
-    
-    height: 400px;
-    
-}
-
-.about {
-    
-    height: 400px;
-    
-}
-
 .footer {
     background: #B2DBE2;
 }
 
 .sections {
-    margin-left: 60px;
+    text-align: center;
     padding-top: 30px;
     margin-top: 0;
 
@@ -94,7 +72,7 @@ body {
 
 .cards {
     width: 200px;
-    margin-left: 300px;
+    margin-left: 500px;
     display: inline-block;
     text-align: center;
 }
