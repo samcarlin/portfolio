@@ -55,20 +55,37 @@ li {
 .projects {
     background: #B2DBE2;
     height: 400px;
+    margin-top: 0;
 }
 
 
 .publications {
     background: #78C1A0;
     height: 400px;
+    
 }
 
 .skills {
-    background: #FFFFFF;
+    background: #B2DBE2;
     height: 400px;
+    
 }
 
 .about {
     background: #51694B;
     height: 400px;
+    
+}
+
+h1 {
+    margin-left: 50px;
+    padding-top: 30px;
+    margin-top: 0;
+
+}
+
+.cards {
+    width: 200px;
+    margin-left: 150px;
+    display: inline-block;
 }
