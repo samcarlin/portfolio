@@ -134,4 +134,14 @@ body {
 .footer-links li {
     display: inline-block;
 }
+
+.anchor a {
+    position: absolute;
+    left: 0px;
+    top: -54px;
+  }
+
+  .anchor {
+    position: relative;
+  }
     
