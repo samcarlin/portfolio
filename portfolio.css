@@ -1,3 +1,10 @@
+/*
+#B2DBE2;
+#8EA6C8;
+#78C1A0;
+#51694B;
+*/
+
 body {
     font-family: 'Arimo', sans-serif;
     margin: 0;
@@ -7,15 +14,23 @@ body {
 
 .header {
     background: #8EA6C8;
-    height: 400px;
+    height: 600px;
     margin: 0;
 }
+
 .header h1 {
-    float: left;
-    
+    text-align: center;
+    padding-top: 0px;
+    font-size: 40px;
 }
 
-li a {
+.header img {
+    padding-top: 30px;
+    margin: auto;
+    display: block;
+}
+
+.navbar li a {
     font-size: 22px;
     color: black;
     text-align: center;
@@ -24,15 +39,15 @@ li a {
     text-transform: uppercase;
 }
 
-li a:hover {
+.navbar li a:hover {
     background-color: #466692;
 }
 
-li {
+.navbar li {
     display: inline-block;
 }
 
- ul {
+ .navbar ul {
     position: fixed;
     top: 0;
     width: 100%; 
@@ -43,42 +58,35 @@ li {
     background-color: #8EA6C8;
 }
 
-.header-image {
-    float: right;
-}
-
-/* h2 {
-    padding-top: 40px;
-    margin-top: -40px;
-} */
-
 .projects {
-    background: #B2DBE2;
+    
     height: 400px;
     margin-top: 0;
 }
 
-
 .publications {
-    background: #78C1A0;
-    height: 400px;
     
+    height: 400px;  
 }
 
 .skills {
-    background: #B2DBE2;
+    
     height: 400px;
     
 }
 
 .about {
-    background: #51694B;
+    
     height: 400px;
     
 }
 
-h1 {
-    margin-left: 50px;
+.footer {
+    background: #B2DBE2;
+}
+
+.sections {
+    margin-left: 60px;
     padding-top: 30px;
     margin-top: 0;
 
@@ -86,6 +94,44 @@ h1 {
 
 .cards {
     width: 200px;
-    margin-left: 150px;
+    margin-left: 300px;
+    display: inline-block;
+    text-align: center;
+}
+
+.about-summary p {
+    margin: 10px 100px;
+}
+
+.cards p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.skills-logos p {
+    margin-left: 400px;
+}
+
+.about-summary {
+    margin: 0 200px;
+}
+
+.footer-links li a {
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+.footer-links {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 14px;
+}
+
+.footer-links li {
     display: inline-block;
 }
+    
