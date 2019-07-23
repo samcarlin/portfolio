@@ -74,6 +74,7 @@ body {
     margin-left: 50px;
     padding-top: 30px;
     margin-top: 10px;
+    text-align: center;
 }
 
 .fixer {
@@ -86,17 +87,20 @@ body {
     display: inline-block;
     text-align: center;
     padding-top:20px;   
+    margin-left: 500px;
   
 }
 
 .des1 {
     
     float: right;
+    width: 300px;
 } 
 
 
 .about-summary p {
-    margin: 10px 100px;
+  margin-left: 400px;
+   width: 600px;
 }
 
 .cards p {
@@ -108,9 +112,28 @@ body {
     margin-left: 400px;
 }
 
-.about-summary {
-    margin: 0 200px;
+/* .about-summary {
+    float: left;
+    display: inline-block;
+    background: #B2DBE2;
+    margin-bottom: 0;
+    padding-bottom: 20px;
 }
+.author {
+    float: right;
+    display: inline-block;
+    margin-right: 200px;
+    background: #B2DBE2;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.author img {
+    padding: 0;
+    margin: 0;
+    background: #B2DBE2;
+} */
+
+
 
 .footer-links li a {
     font-size: 22px;
@@ -140,4 +163,12 @@ body {
  .anchor {
     position: relative;
   }
+
+  table {
+      margin: auto;
+      border-spacing: 20px;
+      font-size: 20px;
+  }
+
+
     
