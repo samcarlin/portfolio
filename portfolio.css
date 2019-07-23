@@ -59,23 +59,41 @@ body {
     background-color: #8EA6C8;
 }
 
+.about {
+    background: #B2DBE2;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
 .footer {
     background: #B2DBE2;
+    margin-top: 0;
 }
 
 .sections {
-    text-align: center;
+    margin-left: 50px;
     padding-top: 30px;
-    margin-top: 0;
+    margin-top: 10px;
+}
 
+.fixer {
+    clear:both;
 }
 
 .cards {
     width: 200px;
-    margin-left: 500px;
+    float: left;
     display: inline-block;
     text-align: center;
+    padding-top:20px;   
+  
 }
+
+.des1 {
+    
+    float: right;
+} 
+
 
 .about-summary p {
     margin: 10px 100px;
@@ -117,9 +135,9 @@ body {
     position: absolute;
     left: 0px;
     top: -54px;
-  }
+  } 
 
-  .anchor {
+ .anchor {
     position: relative;
   }
     
