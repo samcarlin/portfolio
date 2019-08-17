@@ -13,6 +13,7 @@ body {
     padding: 0;
     padding-top: 40px;
     margin: 0;
+    
 }
 
 /* .container {
@@ -73,7 +74,6 @@ body {
 }
 /*body css */
 .sections {
-    /* margin-left: 50px; */
     padding-top: 30px;
     margin-top: 10px;
     text-align: center;
@@ -87,14 +87,35 @@ body {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
-    flex-wrap: wrap;
+    
 }
 
 .project-col {
     flex-direction: column;
-    width: 300px;
+    width: 350px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.project-col p {
+    margin-top: 30px;
+   
+}
+
+.btn {
+    background-color: #B2DBE2;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #8eafb4;
 }
 
 .publications-container {
@@ -110,39 +131,26 @@ body {
 .publication-col {
     flex-direction: column;
     width: 400px;
-    margin: 0 20px;
-    text-align: center;
-    
+    margin: 20px 20px;
+    text-align: center;    
 }
 
-/* .item {
-    width: 25%;
-    float: left;
-    
-  }
-
-   .item.left {
-      margin-left: 300px;
-      text-align: center;
-      
-  }
-
-  .item.right {
-      padding-top: 50px;
-      margin-left: 0;
-  } */
-
-
-
-/* .cards p {
-    margin-top: 10px;
-    font-size: 20px;
-} */
-
-.skills-logos p {
-    margin-left: 400px;
+.publication-col p {
+    margin-top: 30px;
+   
 }
 
+
+.skills-logos-container i {
+    margin: 20px;
+    color: #466692;
+}
+
+.skills-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .about {
     background: #B2DBE2;
     margin-bottom: 0;
@@ -165,26 +173,18 @@ body {
      
  }
 
-/* .about-summary {
-    
-    display: inline-block;
-    width: 60%;
-    background: #B2DBE2;
-    margin-bottom: 0;
-    padding-bottom: 20px;
-}
-.author {
-   width: 25%;
-    display: inline-block;
-    background: #B2DBE2;
-    margin-bottom: 0;
-    padding-bottom: 20px;
-    padding-left: 20px;
-} */
 
+.anchor a {
+    position: absolute;
+    left: 0px;
+    top: -54px;
+  } 
 
+ .anchor {
+    position: relative;
+  }
 
-
+/* footer css */
 .footer {
     background: #B2DBE2;
     margin-top: 0;
@@ -209,21 +209,8 @@ body {
     display: inline-block;
 }
 
-.anchor a {
-    position: absolute;
-    left: 0px;
-    top: -54px;
-  } 
 
- .anchor {
-    position: relative;
-  }
-
-  table {
-      margin: auto;
-      border-spacing: 20px;
-      font-size: 20px;
-  }
+ 
 
 
     
