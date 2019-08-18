@@ -81,9 +81,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    flex: 1;
-    
-    
+    flex: 1; 
 }
 
 .project-col {
@@ -91,12 +89,13 @@ body {
     width: 350px;
     margin-top: 40px;
     text-align: center;
-    
-      
 }
+
+
 
 .project-col p {
     margin-top: 30px;
+    padding: 0 20px;
 }
 
 .btn {
